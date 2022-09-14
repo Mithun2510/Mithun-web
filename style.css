@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* padding: 0px;
+    margin: 0px; */
+    background: url('nature.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+    /* padding: 100px; */
+    */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    /* width: 33%; */
+    position: absolute;
+    left: 30px;
+    top: -3px;
+    font-size: 20px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+
+.mid {
+    /* border: 2px solid black; */
+    display: block;
+    margin: 8px auto;
+    width: 33%;
+    position: absolute sticky;
+    left: 29%
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid gray; */
+    position: absolute;
+    right: 30px;
+    top: 3px;
+}
+
+.container {
+    /* border: 2px solid red;
+    display: inline-block; */
+    position: sticky;
+}
+
+.mid ul li {
+    /* text-decoration: none;
+    /* display: fl; 
+    text-decoration: none; */
+}
+
+.nav {
+    display: inline-block;
+    padding: 1px;
+
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(79, 86, 83);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 3px;
+    background-color: rgb(7, 168, 231);
+    cursor: pointer;
+}
+
+.logo {
+    width: 83px;
+    border-radius: 28px;
+}
+
+.nav li a:hover {
+    background-color: rgb(151, 133, 133);
+}
+
+.formline {
+    border: 2px solid white;
+    /* padding-left: 30%; */
+    margin: 102px 54px;
+    padding: 79px 4px;
+    width: 33%;
+    border-radius: 30px;
+}
+
+.frm {
+    /* background-color: black; */
+    padding-left: 17%;
+}
+
+.n {
+    padding: 11px;
+    /* align-items: center; */
+
+}
+
+.formline h1 {
+    text-align: center;
+}
+
+element.style {}
+
+.n input {
+    border: 2px solid black;
+    text-align: center;
+    display: block;
+    /* width: fit-content; */
+    width: 242px;
+}
+
+/* .but{
+    width: 15px;   
+} */
+.but {
+    /* border: 2px solid black; */
+    padding-left: 96px;
+}
+
+.foot {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.bt {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 3px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: rgb(80, 146, 146);
+}
